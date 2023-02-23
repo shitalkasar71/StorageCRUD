@@ -121,7 +121,7 @@ namespace StorageCRUD.Repository
         {
             try
             {
-                string path = @"C:\Users\vmadmin\Desktop\Shital_AzureIOT\StorageCRUD\Downloads\"+file;
+                string path = @"C:\Users\vmadmin\Desktop\Shital_AzureIOT\StorageCRUD\Downloads\" +file;
                 BlobContainerClient container = new BlobContainerClient(connectionString, blobName);
                 BlobClient client = container.GetBlobClient(file);
                 await client.DownloadToAsync(path);
