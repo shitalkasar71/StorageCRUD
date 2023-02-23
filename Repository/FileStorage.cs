@@ -7,7 +7,7 @@ namespace StorageCRUD.Repository
 {
     public class FileStorage
     {
-        private static string connectionString = "DefaultEndpointsProtocol=https;AccountName=shitalstoragedemo;AccountKey=qoajJ8E2Lzo0+cmlIHUnGDj28xZIauRGXzo1UehvDz0fcGK4faDk6eujEJoqho9MbFiYBse4Wrbm+AStTOzDsQ==;EndpointSuffix=core.windows.net";
+        private static string connectionString = "DefaultEndpointsProtocol=https;AccountName=shitalstoragedemo;AccountKey=ai2FQ7MTHBaHt2RTcW+DxA4ILuXFmdpz8lh8LGW539OkVv/eWqxK6b+JLedwDdDe//jRH1MTzAWq+AStuoLo5Q==;EndpointSuffix=core.windows.net";
         static ShareServiceClient shareServiceClient;
         public static async Task CreateFile(string fileName)
         {          
