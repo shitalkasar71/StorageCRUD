@@ -24,7 +24,7 @@ namespace StorageCRUD.Repository
             catch (Exception e)
             {
                 throw e;
-            }
+            }   
         }
         public static async Task DeleteBlob(string blobName)
         {
