@@ -12,7 +12,7 @@ namespace StorageCRUD.Repository
         {
             var data = new TableServiceClient(connectionString);
             var client = data.GetTableClient(tableName);
-            await client.CreateIfNotExistsAsync();
+            await client.CreateIfNotExistsAsync(); 
         }
         public static async Task<Details> UpdateTable(Details employee,string tableName)
         {
