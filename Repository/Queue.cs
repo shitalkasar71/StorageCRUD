@@ -11,7 +11,7 @@ namespace StorageCRUD.Repository
         {
             if (string.IsNullOrEmpty(queueName))
             {
-                throw new ArgumentNullException("Enter queue Name");
+                throw new ArgumentNullException("Enter queue Name"); 
             }
             try
             {
