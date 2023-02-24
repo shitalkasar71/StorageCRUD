@@ -7,7 +7,7 @@ namespace StorageCRUD.Repository
 {
     public class TableStorage
     {
-        private static string connectionString = "DefaultEndpointsProtocol=https;AccountName=shitalstoragedemo;AccountKey=ai2FQ7MTHBaHt2RTcW+DxA4ILuXFmdpz8lh8LGW539OkVv/eWqxK6b+JLedwDdDe//jRH1MTzAWq+AStuoLo5Q==;EndpointSuffix=core.windows.net";
+        private static string connectionString = "DefaultEndpointsProtocol=https;AccountName=shitalstoragedemo;AccountKey=Ph/dOa9RSn1anjpwKw4K2ZrhSA+t4z1nMRRRbSqDV0iMtebOmO+FxuvGj0/qYYpHNhNpWW05n+YA+AStd+ckeg==;EndpointSuffix=core.windows.net";
         public static async Task AddTable(string tableName)
         {
             var data = new TableServiceClient(connectionString);
